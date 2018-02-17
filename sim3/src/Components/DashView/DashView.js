@@ -5,16 +5,16 @@ import FriendCard from "../FriendCard/FriendCard";
 
 class DashView extends Component {
   render() {
-      let reccomendedFriends = this.props.reccomendedFriendsList.map((friend,i)=>{
+     /* let reccomendedFriends = this.props.reccomendedFriendsList.map((friend,i)=>{
           return <FriendCard 
           userImg={this.props.userImg}
           userFirstName={this.props.userFirstName}
           userLastName={this.props.userLastName}
           />
-      })
+      })*/
     return (
       <div>
-        <Navbar page="Dashboard" />
+        <Navbar page="Dashbaord" />
         <div className="dashTop">
           <EditUserCard />
           <div className="aboutText">
@@ -32,13 +32,13 @@ class DashView extends Component {
                     <div>Sorted By </div>
                     <div>
                         <select name="sortFriends" id="">
-                            <option value="firstName"></option>
-                            <option value="lastName"></option>
-                            <option value="gender"></option>
-                            <option value="hobby"></option>
-                            <option value="hairColor"></option>
-                            <option value="eyeColor"></option>
-                            <option value="birthday"></option>
+                            <option value="firstName">First Name</option>
+                            <option value="lastName">Last Name</option>
+                            <option value="gender">Gender</option>
+                            <option value="hobby">Hobby</option>
+                            <option value="hairColor">Hair Color</option>
+                            <option value="eyeColor">Eye Color</option>
+                            <option value="birthday">Birthday</option>
                         </select>
                     </div>
                 </div>
