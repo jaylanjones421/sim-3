@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
+import './DashView.css'
 import EditUserCard from "../EditUserCard/EditUserCard";
 import FriendCard from "../FriendCard/FriendCard";
 
@@ -14,7 +15,8 @@ class DashView extends Component {
       })*/
     return (
       <div>
-        <Navbar page="Dashbaord" />
+        <Navbar page="Dashboard" />
+        <div className='dashTainer'>
         <div className="dashTop">
           <EditUserCard />
           <div className="aboutText">
@@ -44,6 +46,7 @@ class DashView extends Component {
                 </div>
             </div>
 
+        </div>
         </div>
       </div>
     );

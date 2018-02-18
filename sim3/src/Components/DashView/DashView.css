@@ -1,0 +1,25 @@
+body{
+    background-color: #f2f2f2;
+}.dashTainer{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding: 15px 200px;
+}
+.dashTop{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutText{
+    height:150px;
+    width:500px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items:center;
+    padding: 10px; 
+    background-color: white;
+
+}
