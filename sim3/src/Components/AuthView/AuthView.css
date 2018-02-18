@@ -1,0 +1,43 @@
+.authpage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(99deg,#ff70a6,#ff9770 40%,#ffd670 73%,#e9ff70);
+}
+.loginbox{
+    height: 400px;
+    width: 450px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(99deg,#ff9770 40%,#ffd670);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2)
+}
+.appname{
+    color:white;
+    font-size: 6em;
+    font-weight:bold;
+    padding:0;
+}
+.loginButton{
+    height: 45px;
+    width: 350px;
+    box-sizing: border-box;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:1px;
+    background-color:#403d39; 
+    font-size: 1.25em
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    font-size:4em;
+    color:white;
+}

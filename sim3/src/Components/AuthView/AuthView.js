@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./AuthView.css"
 
 class AuthView extends Component {
     render() {
@@ -8,11 +9,9 @@ class AuthView extends Component {
                     <div className='logo'>
                         ;]
                     </div>
-                    <div className='appname'>
-                        <h1>Helo</h1>
-                    </div>
+                    <div className='appname'>Helo</div>
                     <div className='loginButton'>
-                        <p>Login/Register</p>
+                        <p>Login / Register</p>
                     </div>
                 </div>
             </div>
