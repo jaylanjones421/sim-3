@@ -1,24 +1,49 @@
 .cardContainer{
     height:150px;
-    width:150px;
+    width:320px;
     border-radius: 2px;
     box-sizing: border-box;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     display: flex;
-    
+    margin-right: 20px;  
     align-items:center;
-    padding: 10px; 
+    padding: 15px; 
     background-color: white;
 }
 .userImg{
-
+height: 130px;
+width: 130px;
+display: flex;
+align-items: center;
+justify-content: center;
+border:solid 3px #ff9770;
+font-size: 7em;
 }
-.userFirstName{
-
+.cardRight{
+    height: 140px;
+    width:150px;
+    box-sizing: border-box;
+    padding:10px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
 }
-.userlastName{
+.userFirstName, .userLastName{
+font-size: 1.5em;
+font-weight: bold;
 
 }
 .editProfileButton{
+    height: 35px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50% 0, #ffffff,#f1eceb);
+    border:solid 1px #ccc3c3;
+
 
 }

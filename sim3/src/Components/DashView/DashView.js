@@ -6,13 +6,9 @@ import FriendCard from "../FriendCard/FriendCard";
 
 class DashView extends Component {
   render() {
-     /* let reccomendedFriends = this.props.reccomendedFriendsList.map((friend,i)=>{
-          return <FriendCard 
-          userImg={this.props.userImg}
-          userFirstName={this.props.userFirstName}
-          userLastName={this.props.userLastName}
-          />
-      })*/
+     let reccomendedFriends = function(){
+          return(<p>No reccomendations</p>)
+      }
     return (
       <div>
         <Navbar page="Dashboard" />
@@ -44,6 +40,9 @@ class DashView extends Component {
                         </select>
                     </div>
                 </div>
+            </div>
+            <div className='reccomendedFriendsBottom'>
+            {reccomendedFriends()}
             </div>
 
         </div>

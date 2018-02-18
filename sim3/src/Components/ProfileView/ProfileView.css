@@ -1,0 +1,91 @@
+.profilePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileTop{
+    height: 150px;
+    width: 80vw;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    display: flex; 
+    align-items:center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 15px;
+}
+.profileTopLeft{
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.profileButtons{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px;
+
+}
+.updateButton{
+    height: 35px;
+    width: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50%-46%, #737373,#403d39);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.cancelButton{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50% 0, #ffffff,#f1eceb);
+    border:solid 1px #ccc3c3;
+
+}
+.profileBottom{
+    height: 500px;
+    width: 80vw;
+    margin: 15px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.profileSelect{
+height: 75px;
+width: 225px;
+margin: 25px;
+}
+.userInputContainer{
+margin:10px;
+display: flex;
+flex-direction:column;
+align-items: flex-start
+}
+.inputHeader{
+    padding-left:20px;
+}
+input{
+    height: 35px;
+    width: 225px;
+    border-radius:2px;
+    font-size:1.5em;
+    border:solid 1px #ff9770;
+    
+}
+.selectInput{
+    height: 35px;
+    width: 225px;
+}
