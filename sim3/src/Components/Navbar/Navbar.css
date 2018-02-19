@@ -2,12 +2,13 @@
     height: 60px;
     width: 100vw;
     color:white;
+    box-sizing: border-box;
     background-image: linear-gradient(97deg,#ff7a6e,#ff9770);
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 .leftNav{
     display: flex;
@@ -20,15 +21,14 @@
 font-size:2em;
 font-weight: bold;
 }
-.homeButton{
-
-}
-.searchButton{
-    
+.homeButton, .navSearchButton{
+    color:white;
+    text-decoration: none;
+    font-size:1.2em;
 }
 .pageName{
     margin: 0 20px;
-    font-size:2em;
+    font-size:1.3em;
 }
 .logoutButton{
     width: 200px;

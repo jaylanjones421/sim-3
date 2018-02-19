@@ -11,10 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>i believe in u</h1>
-        <ProfileView/>
-        {/*router*/}
-        {/*wait to implement router until all views are done, 
-        you can test views by changing above component*/}
+        {router}
       </div>
     );
   }

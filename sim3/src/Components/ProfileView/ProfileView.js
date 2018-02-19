@@ -15,7 +15,7 @@ class ProfileView extends Component {
           </div>
           </div>
           <div className='profileButtons'>
-            <div className="updateButton">Update</div>
+            <div className='updateButton'>Update</div>
             <div className="cancelButton">Cancel</div>
           </div>
         </div>
