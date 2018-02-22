@@ -10,9 +10,10 @@
     padding: 15px; 
     background-color: white;
 }
-.userImg{
+.userImg :only-child{
 height: 130px;
 width: 130px;
+box-sizing: border-box;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -44,6 +45,7 @@ font-weight: bold;
     border-radius: 1px;
     background-image: radial-gradient(circle at 50% 0, #ffffff,#f1eceb);
     border:solid 1px #ccc3c3;
+    color: black;
 
 
 }

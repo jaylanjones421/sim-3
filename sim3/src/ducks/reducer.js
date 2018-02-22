@@ -1,3 +1,6 @@
+//IM GOING TO HAVE TO REEVALUATE THIS SUCKER, THE ONLY WAY TO UPDATE PROFILE STATE IS THE UPDATE BTN, DO I NEED ALL THESE FUNCTS, CONSTS, AND CASES??
+
+
 //intitial state
 const initialState = {
   friendsList: [],
@@ -23,6 +26,7 @@ const UPDATE_HOBBY = "UPDATE_HOBBY";
 const UPDATE_BIRTHDAYDAY = "UPDATE_BIRTHDAYDAY";
 const UPDATE_BIRTHDAYMONTH = "UPDATE_BIRTHDAYMONTH";
 const UPDATE_BIRTHDAYYEAR = "UPDATE_BIRTHDAYYEAR";
+const UPDATE_PROFILE = "UPDATE_PROFILE"
 
 //action creators
 export function updateFriendsList(friend){
@@ -85,6 +89,12 @@ export function updateBirthdayYear(year){
         payload:year
     }
 }
+export function updateProfile(profile){
+    return {
+        type:UPDATE_PROFILE,
+        payload:profile
+    }
+}
 
 //reducer (switch)
 export default function reducer(state=initialState,action){
@@ -110,6 +120,18 @@ export default function reducer(state=initialState,action){
             return Object.assign({},state,{birthdayMonth:payload});
         case UPDATE_BIRTHDAYYEAR:
             return Object.assign({},state,{birthdayYear:payload});
+        case UPDATE_PROFILE:
+            return Object.assign({},state,{
+                userFirstName: payload.userFirstName,
+                userLastName: payload.userLastName,
+                gender: payload.gender,
+                hairColor: payload.hairColor,
+                eyeColor: payload.eyeColor,
+                hobby: payload.hobby,
+                birthdayDay: payload.birthdayDay,
+                birthdayMonth: payload.birthdayMonth,
+                birthdayYear: payload.birthdayYear
+            })
         default:
             return state;
     }

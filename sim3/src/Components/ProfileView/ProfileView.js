@@ -8,15 +8,15 @@ class ProfileView extends Component {
         <Navbar page='Profile'/>
         <div className="profileTop">
             <div className='profileTopLeft'>
-          <div className="userImg">:]</div>
+          <div className="userImg"><img src="https://robohash.org/me" alt=""/></div>
           <div>
             <div className="userFirstName">Name1</div>
             <div className="userLastName">Name2</div>
           </div>
           </div>
           <div className='profileButtons'>
-            <div className='updateButton'>Update</div>
-            <div className="cancelButton">Cancel</div>
+            <div className='updateButton' onClick={()=>alert('SET STATE TO VALUES OF INPUTS')}>Update</div>
+            <div className="cancelButton" onClick={()=>alert('GET THE INPUTS TO SHOW CURRENT STATE')}>Cancel</div>
           </div>
         </div>
         <div className='profileBottom'>

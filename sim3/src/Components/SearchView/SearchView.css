@@ -45,6 +45,10 @@ input{
     background-image: radial-gradient(circle at 50%-46%, #737373,#403d39);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
+.searchButton :active{
+    height: 33px;
+    width: 132px;
+}
 .resetButton{
     height: 32px;
     width: 130px;

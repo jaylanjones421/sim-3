@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import "./AuthView.css"
+import logo from'../../imgs/logo.png'
 
 class AuthView extends Component {
     render() {
@@ -7,12 +9,10 @@ class AuthView extends Component {
             <div className='authpage'>
                 <div className='loginbox'>
                     <div className='logo'>
-                        ;]
+                        <img src={logo} alt=""/>
                     </div>
                     <div className='appname'>Helo</div>
-                    <div className='loginButton'>
-                        <p>Login / Register</p>
-                    </div>
+                   <Link to='/'> <div className='loginButton' onClick={(e)=>alert('GET THIS TO AXIOS CALL FOR AUTH0')}>Login / Register</div></Link>
                 </div>
             </div>
         );

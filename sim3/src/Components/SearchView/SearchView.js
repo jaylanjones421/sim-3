@@ -16,8 +16,8 @@ class SearchView extends Component {
                             <option value="lastName">Last Name</option>
                         </select>
                         <input className='searchBox'type="text"/>
-                        <div className='searchButton'>Search</div>
-                        <div className='resetButton'>Reset</div>
+                        <div className='searchButton' onClick={()=>alert('ayeee work on this')}>Search</div>
+                        <div className='resetButton'onClick={()=>alert('ayeee work on this ')}>Reset</div>
 
                     </div>
                     <div className='searchBottom'>
